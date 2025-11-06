@@ -463,20 +463,6 @@ Jika menemukan bug, silakan buat issue dengan detail:
 
 ---
 
-## 👥 Authors
-
-**[NPM: 202310715083]**  
-**[Nama: Rakha Adi Saputro]**
-
----
-
-## 📞 Kontak
-
-- **Email**: rakhaadi24@gmail.com
-- **GitHub**: https://github.com/Rakhasptro   follow guys 
-
----
-
 ## 🙏 Acknowledgments
 
 - **Android Team** - Jetpack Compose & Material Design 3
