@@ -160,7 +160,7 @@ app/
 
 ```bash
 # 1. Clone repository
-git clone https://git.lab.ubharajaya.ac.id/202310715083-RAKHA-ADI-SAPUTRO/BMI-calculator.git
+git clone https://github.com/Rakhasptro/bmi-calculator.git
 cd bmi-calculator
 
 # 2. Open di Android Studio
