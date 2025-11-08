@@ -1,4 +1,4 @@
-# 🏋️ BMI Calculator
+# BMI Calculator
 
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9+-purple.svg)](https://kotlinlang.org)
 [![Compose](https://img.shields.io/badge/Jetpack%20Compose-2025.11-green.svg)](https://developer.android.com/jetpack/compose)
@@ -11,7 +11,7 @@ Modern Android application for calculating Body Mass Index (BMI) with a clean an
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Features](#-features)
 - [Technologies](#-technologies)
@@ -30,7 +30,7 @@ Modern Android application for calculating Body Mass Index (BMI) with a clean an
 
 ## ✨ Features
 
-### 🎯 Core Features
+### Core Features
 
 - ✅ **Accurate BMI Calculation** - WHO standard formula for Metric and Imperial
 - ✅ **Dual Unit System** - Support for Metric (kg, cm) and Imperial (lb, in)
@@ -39,7 +39,7 @@ Modern Android application for calculating Body Mass Index (BMI) with a clean an
 - ✅ **Input Validation** - Real-time validation for valid input
 - ✅ **Error Handling** - Clear and helpful error messages
 
-### 🎨 UI/UX Features
+### UI/UX Features
 
 - ✅ **Modern UI** - Jetpack Compose with Material Design 3
 - ✅ **Smooth Animations** - Spring animations for BMI results
@@ -49,7 +49,7 @@ Modern Android application for calculating Body Mass Index (BMI) with a clean an
 - ✅ **Responsive Layout** - Adaptive for various screen sizes
 - ✅ **Color-coded Results** - Visual feedback based on BMI category
 
-### 🔧 Technical Features
+### Technical Features
 
 - ✅ **Jetpack Compose** - 100% Compose UI (no XML layouts)
 - ✅ **Material Design 3** - Latest design system
@@ -60,7 +60,7 @@ Modern Android application for calculating Body Mass Index (BMI) with a clean an
 
 ---
 
-## 🛠 Technologies
+## Technologies
 
 ### Core Technologies
 
@@ -99,7 +99,7 @@ implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.9.4")
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 ### Project Structure
 
@@ -147,7 +147,7 @@ app/
 
 ---
 
-## 💿 Installation
+## Installation
 
 ### Prerequisites
 
@@ -176,7 +176,7 @@ cd bmi-calculator
 gradlew.bat build
 
 # 5. Run application
-# Select device/emulator → Click Run (▶️)
+# Select device/emulator → Click Run
 ```
 
 ### Install APK
@@ -194,7 +194,7 @@ gradlew.bat build
 
 ---
 
-## 📖 Usage
+## Usage
 
 ### Usage Steps
 
@@ -229,7 +229,7 @@ gradlew.bat build
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Unit Tests
 
@@ -281,7 +281,7 @@ For complete guide, read: **[TESTING_GUIDE.md](TESTING_GUIDE.md)**
 
 ---
 
-## 📊 BMI Categories
+## BMI Categories
 
 Based on **WHO (World Health Organization)** standards:
 
@@ -303,7 +303,7 @@ val ObeseColor = Color(0xFFEF4444)        // Red
 
 ---
 
-## 🔬 Calculation Formula
+## Calculation Formula
 
 ### Metric System (kg, cm)
 
@@ -337,7 +337,7 @@ maxWeight = 24.9 × (height)²
 
 ---
 
-## 🎨 Theme & Colors
+## Theme & Colors
 
 ### Color Palette
 
@@ -367,7 +367,7 @@ val ObeseColor = Color(0xFFEF4444)        // Red
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 ### Build Configuration
 
@@ -402,7 +402,7 @@ android {
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are very welcome! Here's how to contribute:
 
@@ -433,13 +433,13 @@ If you find a bug, please create an issue with details:
 
 ---
 
-## 📝 Changelog
+## Changelog
 
 ### Version 1.0.0 (November 2025)
 
 **Initial Release**
 
-✨ **Features:**
+**Features:**
 - BMI calculation (Metric & Imperial)
 - Welcome screen with illustration
 - Modern Material Design 3 UI
@@ -448,13 +448,13 @@ If you find a bug, please create an issue with details:
 - Animated results
 - BMI categories info card
 
-🧪 **Tests:**
+**Tests:**
 - 93+ unit tests
 - >90% code coverage
 - Boundary value testing
 - Edge case handling
 
-🎨 **UI/UX:**
+**UI/UX:**
 - Clean, modern interface
 - Color-coded categories
 - Material icons
@@ -463,7 +463,7 @@ If you find a bug, please create an issue with details:
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Android Team** - Jetpack Compose & Material Design 3
 - **WHO** - BMI classification standards
@@ -473,7 +473,7 @@ If you find a bug, please create an issue with details:
 
 ---
 
-## 📚 Resources
+## Resources
 
 ### Documentation
 
@@ -493,9 +493,9 @@ If you find a bug, please create an issue with details:
 
 ---
 
-## ⭐ Star History
+## Star History
 
-If this project helps you, give it a ⭐ on GitHub!
+If this project helps you, give it a on GitHub!
 
 [![Star History Chart](https://api.star-history.com/svg?repos=username/bmi-calculator&type=Date)](https://star-history.com/#username/bmi-calculator&Date)
 
