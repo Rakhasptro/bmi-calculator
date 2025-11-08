@@ -5,62 +5,62 @@
 [![Material3](https://img.shields.io/badge/Material%20Design%203-latest-blue.svg)](https://m3.material.io/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-orange.svg)](LICENSE)
 
-Modern Android aplikasi untuk menghitung Body Mass Index (BMI) dengan antarmuka yang clean dan intuitif menggunakan Jetpack Compose dan Material Design 3.
+Modern Android application for calculating Body Mass Index (BMI) with a clean and intuitive interface using Jetpack Compose and Material Design 3.
 
 ![BMI Calculator Screenshot](https://via.placeholder.com/800x400/2563EB/FFFFFF?text=BMI+Calculator+App)
 
 ---
 
-## 📋 Daftar Isi
+## 📋 Table of Contents
 
-- [Fitur](#-fitur)
-- [Teknologi](#-teknologi)
-- [Arsitektur](#-arsitektur)
-- [Instalasi](#-instalasi)
-- [Cara Menggunakan](#-cara-menggunakan)
+- [Features](#-features)
+- [Technologies](#-technologies)
+- [Architecture](#-architecture)
+- [Installation](#-installation)
+- [Usage](#-usage)
 - [Testing](#-testing)
-- [Struktur Project](#-struktur-project)
-- [Kategori BMI](#-kategori-bmi)
-- [Formula Perhitungan](#-formula-perhitungan)
-- [Kontribusi](#-kontribusi)
-- [Lisensi](#-lisensi)
-- [Kontak](#-kontak)
+- [Project Structure](#-project-structure)
+- [BMI Categories](#-bmi-categories)
+- [Calculation Formula](#-calculation-formula)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Contact](#-contact)
 
 ---
 
-## ✨ Fitur
+## ✨ Features
 
 ### 🎯 Core Features
 
-- ✅ **Perhitungan BMI Akurat** - Formula standar WHO untuk Metric dan Imperial
-- ✅ **Dual Unit System** - Support Metric (kg, cm) dan Imperial (lb, in)
-- ✅ **Kategori BMI** - Underweight, Normal, Overweight, Obese dengan color coding
-- ✅ **Healthy Weight Range** - Menampilkan rentang berat ideal berdasarkan tinggi
-- ✅ **Input Validation** - Validasi real-time untuk input yang valid
-- ✅ **Error Handling** - Error messages yang jelas dan helpful
+- ✅ **Accurate BMI Calculation** - WHO standard formula for Metric and Imperial
+- ✅ **Dual Unit System** - Support for Metric (kg, cm) and Imperial (lb, in)
+- ✅ **BMI Categories** - Underweight, Normal, Overweight, Obese with color coding
+- ✅ **Healthy Weight Range** - Display ideal weight range based on height
+- ✅ **Input Validation** - Real-time validation for valid input
+- ✅ **Error Handling** - Clear and helpful error messages
 
 ### 🎨 UI/UX Features
 
-- ✅ **Modern UI** - Jetpack Compose dengan Material Design 3
-- ✅ **Smooth Animations** - Spring animations untuk hasil BMI
-- ✅ **Clean Design** - Minimalist interface dengan visual hierarchy yang jelas
-- ✅ **Material Icons** - Icon yang meaningful untuk setiap elemen
-- ✅ **Welcome Screen** - Onboarding screen dengan ilustrasi
-- ✅ **Responsive Layout** - Adaptive untuk berbagai ukuran layar
-- ✅ **Color-coded Results** - Visual feedback berdasarkan kategori BMI
+- ✅ **Modern UI** - Jetpack Compose with Material Design 3
+- ✅ **Smooth Animations** - Spring animations for BMI results
+- ✅ **Clean Design** - Minimalist interface with clear visual hierarchy
+- ✅ **Material Icons** - Meaningful icons for each element
+- ✅ **Welcome Screen** - Onboarding screen with illustration
+- ✅ **Responsive Layout** - Adaptive for various screen sizes
+- ✅ **Color-coded Results** - Visual feedback based on BMI category
 
 ### 🔧 Technical Features
 
 - ✅ **Jetpack Compose** - 100% Compose UI (no XML layouts)
 - ✅ **Material Design 3** - Latest design system
 - ✅ **Type Safety** - Kotlin with strong typing
-- ✅ **Unit Tested** - 93+ test cases dengan coverage >90%
+- ✅ **Unit Tested** - 93+ test cases with >90% coverage
 - ✅ **Edge-to-Edge** - Modern Android edge-to-edge support
 - ✅ **No Dependencies** - Pure Android SDK (no third-party libraries)
 
 ---
 
-## 🛠 Teknologi
+## 🛠 Technologies
 
 ### Core Technologies
 
@@ -99,7 +99,7 @@ implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.9.4")
 
 ---
 
-## 🏗 Arsitektur
+## 🏗 Architecture
 
 ### Project Structure
 
@@ -147,14 +147,14 @@ app/
 
 ---
 
-## 💿 Instalasi
+## 💿 Installation
 
 ### Prerequisites
 
-- **Android Studio** Koala (2024.1.1) atau lebih baru
-- **JDK** 17 atau lebih baru
+- **Android Studio** Koala (2024.1.1) or newer
+- **JDK** 17 or newer
 - **Android SDK** API 24+ (Android 7.0)
-- **Git** untuk clone repository
+- **Git** for cloning repository
 
 ### Clone & Build
 
@@ -163,11 +163,11 @@ app/
 git clone https://github.com/Rakhasptro/bmi-calculator.git
 cd bmi-calculator
 
-# 2. Open di Android Studio
-# File → Open → Pilih folder project
+# 2. Open in Android Studio
+# File → Open → Select project folder
 
 # 3. Sync Gradle
-# Android Studio akan otomatis sync dependencies
+# Android Studio will automatically sync dependencies
 
 # 4. Build project
 ./gradlew build
@@ -175,8 +175,8 @@ cd bmi-calculator
 # Windows:
 gradlew.bat build
 
-# 5. Run aplikasi
-# Pilih device/emulator → Click Run (▶️)
+# 5. Run application
+# Select device/emulator → Click Run (▶️)
 ```
 
 ### Install APK
@@ -185,40 +185,40 @@ gradlew.bat build
 # Build debug APK
 ./gradlew assembleDebug
 
-# APK tersedia di:
+# APK available at:
 # app/build/outputs/apk/debug/app-debug.apk
 
-# Install ke device
+# Install to device
 ./gradlew installDebug
 ```
 
 ---
 
-## 📖 Cara Menggunakan
+## 📖 Usage
 
-### Langkah Penggunaan
+### Usage Steps
 
-1. **Buka Aplikasi**
-   - Lihat welcome screen
+1. **Open Application**
+   - View welcome screen
    - Tap "Get Started"
 
-2. **Pilih Unit System**
+2. **Select Unit System**
    - **Metric**: kg & cm
    - **Imperial**: lb & in
 
 3. **Input Data**
-   - Masukkan **Weight** (berat badan)
-   - Masukkan **Height** (tinggi badan)
+   - Enter **Weight** (body weight)
+   - Enter **Height** (body height)
 
-4. **Hitung BMI**
-   - Tap tombol **"Calculate BMI"**
-   - Hasil akan muncul dengan animasi
+4. **Calculate BMI**
+   - Tap **"Calculate BMI"** button
+   - Results will appear with animation
 
-5. **Lihat Hasil**
-   - **BMI Value** - Nilai BMI Anda
+5. **View Results**
+   - **BMI Value** - Your BMI value
    - **Category** - Underweight/Normal/Overweight/Obese
-   - **Healthy Range** - Rentang berat ideal Anda
-   - **BMI Categories** - Info kategori BMI
+   - **Healthy Range** - Your ideal weight range
+   - **BMI Categories** - BMI category information
 
 ### Input Validation
 
@@ -233,9 +233,9 @@ gradlew.bat build
 
 ### Unit Tests
 
-Project ini memiliki **93+ unit tests** dengan coverage >90%.
+This project has **93+ unit tests** with >90% coverage.
 
-#### Jalankan Test
+#### Run Tests
 
 ```bash
 # Command Line
@@ -244,7 +244,7 @@ Project ini memiliki **93+ unit tests** dengan coverage >90%.
 # Windows
 gradlew.bat test
 
-# Lihat HTML Report
+# View HTML Report
 # app/build/reports/tests/test/index.html
 ```
 
@@ -252,15 +252,15 @@ gradlew.bat test
 
 | File | Tests | Coverage |
 |------|-------|----------|
-| `BmiCalculatorTest.kt` | 43 | Perhitungan, validasi, boundary |
-| `BmiCategoryTest.kt` | 30+ | Kategori, warna, display |
+| `BmiCalculatorTest.kt` | 43 | Calculation, validation, boundary |
+| `BmiCategoryTest.kt` | 30+ | Category, color, display |
 | `BmiDataTest.kt` | 10 | Data class, equality |
 | `UnitSystemTest.kt` | 10 | Enum values |
 
-#### Contoh Test Cases
+#### Example Test Cases
 
 ```kotlin
-// Test perhitungan BMI
+// Test BMI calculation
 @Test
 fun calculateBmi_metric_normal_returnsCorrectBmi() {
     // 70 kg, 175 cm -> BMI = 22.86 (Normal)
@@ -272,25 +272,25 @@ fun calculateBmi_metric_normal_returnsCorrectBmi() {
 // Test boundary values
 @Test
 fun fromBmi_exactNormalLowerBoundary_returnsNormal() {
-    // BMI 18.5 (tepat batas bawah normal)
+    // BMI 18.5 (exact normal lower boundary)
     assertEquals(BmiCategory.NORMAL, BmiCategory.fromBmi(18.5))
 }
 ```
 
-Untuk panduan lengkap, baca: **[TESTING_GUIDE.md](TESTING_GUIDE.md)**
+For complete guide, read: **[TESTING_GUIDE.md](TESTING_GUIDE.md)**
 
 ---
 
-## 📊 Kategori BMI
+## 📊 BMI Categories
 
-Berdasarkan standar **WHO (World Health Organization)**:
+Based on **WHO (World Health Organization)** standards:
 
-| Kategori | BMI Range | Color | Status |
+| Category | BMI Range | Color | Status |
 |----------|-----------|-------|--------|
-| **Underweight** | < 18.5 | 🔵 Blue | Berat badan kurang |
-| **Normal** | 18.5 - 24.9 | 🟢 Green | Berat badan ideal |
-| **Overweight** | 25.0 - 29.9 | 🟠 Orange | Kelebihan berat badan |
-| **Obese** | ≥ 30.0 | 🔴 Red | Obesitas |
+| **Underweight** | < 18.5 | 🔵 Blue | Underweight |
+| **Normal** | 18.5 - 24.9 | 🟢 Green | Ideal weight |
+| **Overweight** | 25.0 - 29.9 | 🟠 Orange | Overweight |
+| **Obese** | ≥ 30.0 | 🔴 Red | Obese |
 
 ### Visual Color Coding
 
@@ -303,7 +303,7 @@ val ObeseColor = Color(0xFFEF4444)        // Red
 
 ---
 
-## 🔬 Formula Perhitungan
+## 🔬 Calculation Formula
 
 ### Metric System (kg, cm)
 
@@ -311,7 +311,7 @@ val ObeseColor = Color(0xFFEF4444)        // Red
 BMI = weight (kg) / (height (m))²
 ```
 
-**Contoh:**
+**Example:**
 - Weight: 70 kg
 - Height: 175 cm = 1.75 m
 - BMI = 70 / (1.75)² = 22.86
@@ -322,7 +322,7 @@ BMI = weight (kg) / (height (m))²
 BMI = (weight (lb) / (height (in))²) × 703
 ```
 
-**Contoh:**
+**Example:**
 - Weight: 150 lb
 - Height: 67 in
 - BMI = (150 / (67)²) × 703 = 23.49
@@ -330,7 +330,7 @@ BMI = (weight (lb) / (height (in))²) × 703
 ### Healthy Weight Range
 
 ```kotlin
-// Untuk BMI 18.5 - 24.9
+// For BMI 18.5 - 24.9
 minWeight = 18.5 × (height)²
 maxWeight = 24.9 × (height)²
 ```
@@ -402,13 +402,13 @@ android {
 
 ---
 
-## 🤝 Kontribusi
+## 🤝 Contributing
 
-Kontribusi sangat diterima! Berikut cara berkontribusi:
+Contributions are very welcome! Here's how to contribute:
 
 ### Steps
 
-1. **Fork** repository ini
+1. **Fork** this repository
 2. **Create** feature branch (`git checkout -b feature/AmazingFeature`)
 3. **Commit** changes (`git commit -m 'Add some AmazingFeature'`)
 4. **Push** to branch (`git push origin feature/AmazingFeature`)
@@ -416,19 +416,19 @@ Kontribusi sangat diterima! Berikut cara berkontribusi:
 
 ### Guidelines
 
-- ✅ Ikuti Kotlin coding conventions
-- ✅ Tulis unit tests untuk fitur baru
-- ✅ Update dokumentasi jika perlu
-- ✅ Pastikan semua tests pass
-- ✅ Gunakan commit messages yang jelas
+- ✅ Follow Kotlin coding conventions
+- ✅ Write unit tests for new features
+- ✅ Update documentation if needed
+- ✅ Ensure all tests pass
+- ✅ Use clear commit messages
 
 ### Bug Reports
 
-Jika menemukan bug, silakan buat issue dengan detail:
-- Deskripsi bug
+If you find a bug, please create an issue with details:
+- Bug description
 - Steps to reproduce
 - Expected vs actual behavior
-- Screenshots (jika ada)
+- Screenshots (if any)
 - Device & Android version
 
 ---
@@ -441,7 +441,7 @@ Jika menemukan bug, silakan buat issue dengan detail:
 
 ✨ **Features:**
 - BMI calculation (Metric & Imperial)
-- Welcome screen dengan ilustrasi
+- Welcome screen with illustration
 - Modern Material Design 3 UI
 - Input validation
 - Healthy weight range
@@ -495,7 +495,7 @@ Jika menemukan bug, silakan buat issue dengan detail:
 
 ## ⭐ Star History
 
-Jika project ini membantu Anda, berikan ⭐ di GitHub!
+If this project helps you, give it a ⭐ on GitHub!
 
 [![Star History Chart](https://api.star-history.com/svg?repos=username/bmi-calculator&type=Date)](https://star-history.com/#username/bmi-calculator&Date)
 
@@ -508,4 +508,3 @@ Jika project ini membantu Anda, berikan ⭐ di GitHub!
 [⬆ Back to Top](#-bmi-calculator)
 
 </div>
-
