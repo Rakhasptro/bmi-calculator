@@ -28,7 +28,7 @@ Modern Android application for calculating Body Mass Index (BMI) with a clean an
 
 ---
 
-## ✨ Features
+## Features
 
 ### Core Features
 
